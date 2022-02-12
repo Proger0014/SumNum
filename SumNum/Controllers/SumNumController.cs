@@ -9,7 +9,6 @@ using SumNum.BusinessLogic;
 namespace SumNum.API.Controllers
 {
     [ApiController]
-
     public class SumNumController : ControllerBase
     {
         [HttpGet]

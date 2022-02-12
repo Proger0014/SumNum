@@ -7,7 +7,9 @@ namespace SumNum.CLI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(SumClass.Sum(1, 3));
+            SumClass sumClass = new SumClass();
+
+            Console.WriteLine(sumClass.Sum(1, 3));
         }
     }
 }

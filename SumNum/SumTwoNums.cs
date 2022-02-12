@@ -7,7 +7,7 @@ using SumNum.BusinessLogic;
 
 namespace SumNum.API
 {
-    public class SumTowNums : ISumTwoNums
+    public class SumTwoNums : ISumTwoNums
     {
         public int Sum(int a, int b)
         {

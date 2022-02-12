@@ -27,6 +27,7 @@ namespace SumNum.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<ISumTwoNums, SumTwoNums>();
+            //services.AddScoped<ISumTwoNums, SumTwoNums2>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
